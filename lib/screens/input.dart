@@ -92,10 +92,11 @@ class _InputState extends State<Input> {
                 Navigator.push(context, MaterialPageRoute(builder: (_)=>Results(monthly: monthly, total: total,)));
 
               },
-              child: const Text('Calculate your payment'),
+            
               textColor: Colors.orangeAccent,
               color: Colors.brown,
               elevation: 10.0,
+              child: const Text('Calculate your payment'),
               )
 
 
